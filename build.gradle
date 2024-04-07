@@ -1,0 +1,26 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.matrix'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    set('jUnitVersion', '5.10.2')
+    set('iUnitMockitoVersion', '5.11.0')
+}
+
+dependencies {
+    testImplementation group: 'org.mockito', name: 'mockito-junit-jupiter', version: "${iUnitMockitoVersion}"
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-params', version: "${jUnitVersion}"
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: "${jUnitVersion}"
+    testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: "${jUnitVersion}"
+
+}
+test {
+    useJUnitPlatform()
+}
