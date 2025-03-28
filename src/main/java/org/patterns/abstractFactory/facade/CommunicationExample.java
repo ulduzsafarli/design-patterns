@@ -1,13 +1,12 @@
-package org.patterns.abstractFactory;
+package org.patterns.abstractFactory.facade;
 
-import org.patterns.abstractFactory.abstractInterface.Message;
-import org.patterns.abstractFactory.abstractInterface.VideoCall;
-import org.patterns.abstractFactory.abstractInterface.VoiceCall;
-import org.patterns.abstractFactory.enums.CommunicationTypes;
-import org.patterns.abstractFactory.facade.CommunicationFacade;
-import org.patterns.abstractFactory.factory.CommunicationFactory;
-import org.patterns.abstractFactory.internet.InternetCommunicationFactory;
-import org.patterns.abstractFactory.mobile.MobileCommunicationFactory;
+import org.patterns.abstractFactory.facade.abstractProducts.Message;
+import org.patterns.abstractFactory.facade.abstractProducts.VideoCall;
+import org.patterns.abstractFactory.facade.abstractProducts.VoiceCall;
+import org.patterns.abstractFactory.facade.enums.CommunicationTypes;
+import org.patterns.abstractFactory.facade.factory.CommunicationFactory;
+import org.patterns.abstractFactory.facade.concreteProducts.internet.InternetCommunicationFactory;
+import org.patterns.abstractFactory.facade.concreteProducts.mobile.MobileCommunicationFactory;
 
 public class CommunicationExample {
     public static void main(String[] args) {

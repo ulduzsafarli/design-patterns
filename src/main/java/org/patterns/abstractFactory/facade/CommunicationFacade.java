@@ -1,9 +1,9 @@
 package org.patterns.abstractFactory.facade;
 
-import org.patterns.abstractFactory.enums.CommunicationTypes;
-import org.patterns.abstractFactory.factory.CommunicationFactory;
-import org.patterns.abstractFactory.internet.InternetCommunicationFactory;
-import org.patterns.abstractFactory.mobile.MobileCommunicationFactory;
+import org.patterns.abstractFactory.facade.enums.CommunicationTypes;
+import org.patterns.abstractFactory.facade.factory.CommunicationFactory;
+import org.patterns.abstractFactory.facade.concreteProducts.internet.InternetCommunicationFactory;
+import org.patterns.abstractFactory.facade.concreteProducts.mobile.MobileCommunicationFactory;
 
 public class CommunicationFacade {
     private final CommunicationFactory factory;

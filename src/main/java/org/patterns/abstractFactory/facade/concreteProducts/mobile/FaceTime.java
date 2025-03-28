@@ -1,6 +1,6 @@
-package org.patterns.abstractFactory.mobile;
+package org.patterns.abstractFactory.facade.concreteProducts.mobile;
 
-import org.patterns.abstractFactory.abstractInterface.VideoCall;
+import org.patterns.abstractFactory.facade.abstractProducts.VideoCall;
 
 public class FaceTime implements VideoCall {
     @Override

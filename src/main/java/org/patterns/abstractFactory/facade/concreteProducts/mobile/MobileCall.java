@@ -1,6 +1,6 @@
-package org.patterns.abstractFactory.mobile;
+package org.patterns.abstractFactory.facade.concreteProducts.mobile;
 
-import org.patterns.abstractFactory.abstractInterface.VoiceCall;
+import org.patterns.abstractFactory.facade.abstractProducts.VoiceCall;
 
 public class MobileCall implements VoiceCall {
     @Override

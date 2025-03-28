@@ -1,6 +1,6 @@
-package org.patterns.abstractFactory.internet;
+package org.patterns.abstractFactory.facade.concreteProducts.internet;
 
-import org.patterns.abstractFactory.abstractInterface.VoiceCall;
+import org.patterns.abstractFactory.facade.abstractProducts.VoiceCall;
 
 public class VoIP implements VoiceCall {
     @Override

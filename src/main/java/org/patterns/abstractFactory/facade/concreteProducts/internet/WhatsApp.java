@@ -1,6 +1,6 @@
-package org.patterns.abstractFactory.internet;
+package org.patterns.abstractFactory.facade.concreteProducts.internet;
 
-import org.patterns.abstractFactory.abstractInterface.Message;
+import org.patterns.abstractFactory.facade.abstractProducts.Message;
 
 public class WhatsApp implements Message {
     @Override

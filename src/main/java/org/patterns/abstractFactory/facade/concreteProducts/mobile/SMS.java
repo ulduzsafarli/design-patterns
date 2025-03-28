@@ -1,6 +1,6 @@
-package org.patterns.abstractFactory.mobile;
+package org.patterns.abstractFactory.facade.concreteProducts.mobile;
 
-import org.patterns.abstractFactory.abstractInterface.Message;
+import org.patterns.abstractFactory.facade.abstractProducts.Message;
 
 public class SMS implements Message {
     @Override
