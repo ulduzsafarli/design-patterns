@@ -1,7 +1,7 @@
 package singleton;
 
 import org.junit.jupiter.api.Test;
-import org.patterns.singleton.Singleton;
+import org.patterns.singleton.multithreading.instanceHolder.Singleton;
 
 import static org.junit.jupiter.api.Assertions.assertSame;
 
