@@ -1,4 +1,4 @@
-package org.patterns.abstractFactory;
+package org.patterns.abstractFactory.factory;
 
 import org.patterns.abstractFactory.abstractInterface.Message;
 import org.patterns.abstractFactory.abstractInterface.VideoCall;

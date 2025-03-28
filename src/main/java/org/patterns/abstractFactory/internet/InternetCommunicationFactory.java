@@ -1,6 +1,6 @@
 package org.patterns.abstractFactory.internet;
 
-import org.patterns.abstractFactory.CommunicationFactory;
+import org.patterns.abstractFactory.factory.CommunicationFactory;
 import org.patterns.abstractFactory.abstractInterface.Message;
 import org.patterns.abstractFactory.abstractInterface.VideoCall;
 import org.patterns.abstractFactory.abstractInterface.VoiceCall;
