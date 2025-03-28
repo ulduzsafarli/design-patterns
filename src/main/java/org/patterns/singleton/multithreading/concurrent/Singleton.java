@@ -1,4 +1,4 @@
-package org.patterns.singleton.multithreading.concurent;
+package org.patterns.singleton.multithreading.concurrent;
 
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -9,7 +9,7 @@ public class Singleton {
     private Singleton() {
     }
 
-    public Singleton getInstance() {
+    public static Singleton getInstance() {
         return instances.computeIfAbsent("INSTANCE", key -> new Singleton());
     }
 }
