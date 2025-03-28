@@ -1,4 +1,4 @@
-package org.patterns.abstractFactory.abstractInterface;
+package org.patterns.abstractFactory.facade.abstractProducts;
 
 public interface VideoCall {
     void startVideo(String participant);

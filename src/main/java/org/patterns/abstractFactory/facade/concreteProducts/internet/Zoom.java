@@ -1,6 +1,6 @@
-package org.patterns.abstractFactory.internet;
+package org.patterns.abstractFactory.facade.concreteProducts.internet;
 
-import org.patterns.abstractFactory.abstractInterface.VideoCall;
+import org.patterns.abstractFactory.facade.abstractProducts.VideoCall;
 
 public class Zoom implements VideoCall {
     @Override
